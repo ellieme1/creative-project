@@ -1,0 +1,89 @@
+.book-rule {
+  border: 3px solid black;
+}
+
+.button {
+  cursor: pointer;
+  border:none;
+  padding: 16px 32px;
+  color: white;
+  font-family: "Helvetica";
+  border-radius: 10px;
+  background-color: #AF9F8C;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.book {
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: #E7E6DC;
+  text-align: center;
+}
+
+.book p {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+.book h2 {
+  text-align: center;
+  font-family: "Didot";
+  font-size: 3em;
+}
+
+.book h3 {
+  text-align: center;
+  font-family: "Didot";
+  padding: 30px;
+}
+
+.book img {
+  border: 15px solid white;
+  margin-top: 30px;
+}
+
+/* Phone */
+@media only screen and (max-width: 450px) {
+  .book {
+    width: 95%;
+  }
+
+  .book p {
+    padding-top: 25px;
+    font-size: 5vw;
+  }
+
+  .book img {
+    height: auto;
+    width: 300px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 451px) {
+  .book {
+    width: 70%;
+  }
+
+  .book p {
+    font-size: 2em;
+  }
+
+  .book img {
+    width: 800px;
+    margin-bottom: 40px;
+  }
+}

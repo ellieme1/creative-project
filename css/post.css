@@ -1,0 +1,93 @@
+.post-rule {
+  border: 3px solid black;
+}
+
+.post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.post {
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #E7E6DC;
+}
+
+.comment-rule {
+  border: 1.5px solid black;
+}
+
+.comment-details {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.comment-text{
+  text-align: left;
+}
+
+.post p {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+.post h2 {
+  text-align: center;
+  font-family: "Didot";
+  font-size: 3em;
+}
+
+.post h3 {
+  text-align: center;
+  font-family: "Didot";
+  padding: 30px;
+}
+
+.post img {
+  border: 15px solid white;
+  margin-top: 30px;
+}
+
+/* Phone */
+@media only screen and (max-width: 450px) {
+  .post {
+    width: 95%;
+  }
+
+  .post p {
+    padding-top: 25px;
+    font-size: 5vw;
+  }
+
+  .post img {
+    height: auto;
+    width: 300px;
+  }
+  .comment-details {
+    font-size: 4vw;
+    margin-bottom: 10px;
+  }
+  .comment {
+    font-size: 3vw;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 451px) {
+  .post {
+    width: 70%;
+  }
+
+  .post p {
+    font-size: 2em;
+  }
+
+  .post img {
+    height: 500px;
+    width: auto;
+  }
+}

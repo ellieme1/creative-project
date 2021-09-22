@@ -1,0 +1,66 @@
+.log-in-button {
+  background-color:#AF9F8C ;
+  color: white;
+  padding: 16px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition-duration: 0.4s;
+}
+
+h1 {
+  font-family: "Didot";
+
+  text-align: center;
+}
+
+
+p {
+  font-family: "Didot";
+  text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  p {
+      font-size: 4vw;
+  }
+}
+
+
+@media only screen and (min-width: 451px) {
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  h1 {
+      font-size: 5vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+}
